@@ -1,0 +1,75 @@
+===============================================================================
+
+1. Instructions
+
+- replace [...] with free text,
+  and
+- replace [?] with [X] if you have completed that stage
+  and view it as   complete
+- replace [?] with [*] if you have attempted that stage
+  but view it as incomplete; document both the reason and what you could do
+  (given more time) to address it at the end of the marksheet.
+
+===============================================================================
+
+2. Information
+
+So we can calibrate and improve the assignment in the future, give us a 
+rough idea how long (in hours) you spent on it *in total*:
+
+effort : [15] hours
+
+===============================================================================
+
+3. Citation
+
+Clearly it can influence your mark, but the use of third-party resources, 
+e.g., web-sites, source code, libraries, tools (including those based on
+AI), etc., *is* allowed *iff.* it
+
+- hasn't been explicitly prohibited by the assignment description, *and*
+- is correctly documented (e.g., via a citation).
+
+In line with applicable policies around academic integrity, clarify what
+you claim is *your* work by documenting any third-party resources used:
+
+[https://www.chipverify.com/verilog/verilog-fsm]
+
+===============================================================================
+
+4. Marking
+
+The following gives a stage-by-stage description of the assignment marking
+scheme.  Note this acts as an indicative guideline only, including weights
+for each more obvious aspect (e.g., functional correctness); other aspects
+outside this list can warrant an increase/decrease in marks, with examples
+including hard to quantify features such as style, efficiency, robustness, 
+generality, or realism of a solution.  Put another way, identifying then
+reasoning about these latter aspects forms part of the assessment, so they
+are not (necessarily) detailed explicitly.
+
+    Stage 1 : implement
+[X]           - clr_28bit    module                                  ( 20%)
+[X]           - key_schedule module                                  ( 10%)
+[X]           - round        module                                  ( 10%)
+
+[X] Stage 2 : implement encrypt_comb module, combinatorial design    ( 20%)
+
+[*] Stage 3 : implement encrypt_iter module, iterative     design    ( 20%)
+
+[?] Stage 4 : implement encrypt_pipe module, pipelined     design    ( 20%)
+
+                                                                     ------
+    Total                                                            (100%)
+
+===============================================================================
+
+5. Documentation
+
+Any other documentation, notes, or comments that you think are important or
+might be easy to overlook (e.g., a subtle issue or technique in associated
+source code) should go here:
+
+[...]
+
+===============================================================================

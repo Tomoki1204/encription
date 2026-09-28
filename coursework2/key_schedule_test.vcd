@@ -1,0 +1,304 @@
+$date
+	Mon Nov 24 16:04:24 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module key_schedule_test $end
+$var wire 56 ! t_r [55:0] $end
+$var wire 48 " t_k [47:0] $end
+$var reg 4 # t_i [3:0] $end
+$var reg 56 $ t_x [55:0] $end
+$scope module t $end
+$var wire 4 % i [3:0] $end
+$var wire 56 & r [55:0] $end
+$var wire 56 ' x [55:0] $end
+$var wire 28 ( x1 [27:0] $end
+$var wire 28 ) x0 [27:0] $end
+$var wire 28 * r1 [27:0] $end
+$var wire 28 + r0 [27:0] $end
+$var wire 56 , merge_r [55:0] $end
+$var wire 48 - k [47:0] $end
+$scope module m $end
+$var wire 28 . x1 [27:0] $end
+$var wire 28 / x0 [27:0] $end
+$var wire 56 0 r [55:0] $end
+$upscope $end
+$scope module m0 $end
+$var wire 4 1 y [3:0] $end
+$var wire 28 2 x [27:0] $end
+$var wire 28 3 r [27:0] $end
+$var reg 2 4 f [1:0] $end
+$upscope $end
+$scope module m1 $end
+$var wire 4 5 y [3:0] $end
+$var wire 28 6 x [27:0] $end
+$var wire 28 7 r [27:0] $end
+$var reg 2 8 f [1:0] $end
+$upscope $end
+$scope module p $end
+$var wire 56 9 x [55:0] $end
+$var wire 48 : r [47:0] $end
+$upscope $end
+$scope module s $end
+$var wire 56 ; x [55:0] $end
+$var wire 28 < r1 [27:0] $end
+$var wire 28 = r0 [27:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module merge_1 $end
+$var wire 4 > x0 [3:0] $end
+$var wire 4 ? x1 [3:0] $end
+$var wire 4 @ x2 [3:0] $end
+$var wire 4 A x3 [3:0] $end
+$var wire 4 B x4 [3:0] $end
+$var wire 4 C x5 [3:0] $end
+$var wire 4 D x6 [3:0] $end
+$var wire 4 E x7 [3:0] $end
+$var wire 32 F r [31:0] $end
+$upscope $end
+$scope module merge_2 $end
+$var wire 32 G x0 [31:0] $end
+$var wire 32 H x1 [31:0] $end
+$var wire 64 I r [63:0] $end
+$upscope $end
+$scope module perm_E $end
+$var wire 32 J x [31:0] $end
+$var wire 48 K r [47:0] $end
+$upscope $end
+$scope module perm_FP $end
+$var wire 64 L x [63:0] $end
+$var wire 64 M r [63:0] $end
+$upscope $end
+$scope module perm_IP $end
+$var wire 64 N x [63:0] $end
+$var wire 64 O r [63:0] $end
+$upscope $end
+$scope module perm_P $end
+$var wire 32 P x [31:0] $end
+$var wire 32 Q r [31:0] $end
+$upscope $end
+$scope module perm_PC1 $end
+$var wire 64 R x [63:0] $end
+$var wire 56 S r [55:0] $end
+$upscope $end
+$scope module sbox_0 $end
+$var wire 6 T x [5:0] $end
+$var wire 4 U r [3:0] $end
+$upscope $end
+$scope module sbox_1 $end
+$var wire 6 V x [5:0] $end
+$var wire 4 W r [3:0] $end
+$upscope $end
+$scope module sbox_2 $end
+$var wire 6 X x [5:0] $end
+$var wire 4 Y r [3:0] $end
+$upscope $end
+$scope module sbox_3 $end
+$var wire 6 Z x [5:0] $end
+$var wire 4 [ r [3:0] $end
+$upscope $end
+$scope module sbox_4 $end
+$var wire 6 \ x [5:0] $end
+$var wire 4 ] r [3:0] $end
+$upscope $end
+$scope module sbox_5 $end
+$var wire 6 ^ x [5:0] $end
+$var wire 4 _ r [3:0] $end
+$upscope $end
+$scope module sbox_6 $end
+$var wire 6 ` x [5:0] $end
+$var wire 4 a r [3:0] $end
+$upscope $end
+$scope module sbox_7 $end
+$var wire 6 b x [5:0] $end
+$var wire 4 c r [3:0] $end
+$upscope $end
+$scope module split_1 $end
+$var wire 48 d x [47:0] $end
+$var wire 6 e r7 [5:0] $end
+$var wire 6 f r6 [5:0] $end
+$var wire 6 g r5 [5:0] $end
+$var wire 6 h r4 [5:0] $end
+$var wire 6 i r3 [5:0] $end
+$var wire 6 j r2 [5:0] $end
+$var wire 6 k r1 [5:0] $end
+$var wire 6 l r0 [5:0] $end
+$upscope $end
+$scope module split_2 $end
+$var wire 64 m x [63:0] $end
+$var wire 32 n r1 [31:0] $end
+$var wire 32 o r0 [31:0] $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bz o
+bz n
+bz m
+bz l
+bz k
+bz j
+bz i
+bz h
+bz g
+bz f
+bz e
+bz d
+bx c
+bz b
+bx a
+bz `
+bx _
+bz ^
+bx ]
+bz \
+bx [
+bz Z
+bx Y
+bz X
+bx W
+bz V
+bx U
+bz T
+bz S
+bz R
+bz Q
+bz P
+bz O
+bz N
+bz M
+bz L
+bz K
+bz J
+bz I
+bz H
+bz G
+bz F
+bz E
+bz D
+bz C
+bz B
+bz A
+bz @
+bz ?
+bz >
+b101010011001100001111111101 =
+b11110011001101010101111100 <
+b111100110011010101011111000101010011001100001111111101 ;
+b101110100010101101110101010010111101011000101101 :
+b11110011001101010101111100000101001100110000111111110100 9
+b10 8
+b1111001100110101010111110000 7
+b11110011001101010101111100 6
+b10 5
+b10 4
+b101001100110000111111110100 3
+b101010011001100001111111101 2
+b10 1
+b11110011001101010101111100000101001100110000111111110100 0
+b101001100110000111111110100 /
+b1111001100110101010111110000 .
+b101110100010101101110101010010111101011000101101 -
+b11110011001101010101111100000101001100110000111111110100 ,
+b101010011001100001111111101 +
+b11110011001101010101111100 *
+b101001100110000111111110100 )
+b1111001100110101010111110000 (
+b111100110011010101011111000101010011001100001111111101 '
+b11110011001101010101111100000101001100110000111111110100 &
+b10 %
+b111100110011010101011111000101010011001100001111111101 $
+b10 #
+b101110100010101101110101010010111101011000101101 "
+b11110011001101010101111100000101001100110000111111110100 !
+$end
+#20
+$dumpoff
+bx o
+bx n
+bx m
+bx l
+bx k
+bx j
+bx i
+bx h
+bx g
+bx f
+bx e
+bx d
+bx c
+bx b
+bx a
+bx `
+bx _
+bx ^
+bx ]
+bx \
+bx [
+bx Z
+bx Y
+bx X
+bx W
+bx V
+bx U
+bx T
+bx S
+bx R
+bx Q
+bx P
+bx O
+bx N
+bx M
+bx L
+bx K
+bx J
+bx I
+bx H
+bx G
+bx F
+bx E
+bx D
+bx C
+bx B
+bx A
+bx @
+bx ?
+bx >
+bx =
+bx <
+bx ;
+bx :
+bx 9
+bx 8
+bx 7
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+bx 1
+bx 0
+bx /
+bx .
+bx -
+bx ,
+bx +
+bx *
+bx )
+bx (
+bx '
+bx &
+bx %
+bx $
+bx #
+bx "
+bx !
+$end
